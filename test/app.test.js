@@ -1,5 +1,5 @@
 const req = require('supertest');
-const app = require('./app');
+const app = require('../app');
 
 describe('Get /', () => {
     it('should return 200 OK', (done) => {
